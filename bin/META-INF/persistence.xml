@@ -12,6 +12,7 @@
 
         <!-- Aqui são listadas todas as entidades -->
         <class>br.com.tgsoftware.curso.modelo.Conta</class>
+        <class>br.com.tgsoftware.curso.modelo.Movimentacao</class>
 
         <properties>    
             <!-- Propriedades JDBC -->
