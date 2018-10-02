@@ -35,16 +35,16 @@ public class TesteMovimentacoesComCategoria {
 		m2.setTipo(TipoMovimentacao.SAIDA);
 		m2.setValor(new BigDecimal("759.00"));
 		m2.setCategorias(Arrays.asList(cat1, cat2));
-		
+
 		EntityManager em = new JPAUtil().getEntityManager();
 		em.getTransaction().begin();
-		
+
 		em.persist(cat1);
 		em.persist(cat2);
-		
+
 		em.persist(m1);
 		em.persist(m2);
-		
+
 		em.getTransaction().commit();
 		em.close();
 	}

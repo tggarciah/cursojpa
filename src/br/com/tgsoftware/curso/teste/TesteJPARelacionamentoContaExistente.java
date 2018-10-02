@@ -10,7 +10,7 @@ import br.com.tgsoftware.curso.modelo.Movimentacao;
 import br.com.tgsoftware.curso.modelo.enumeration.TipoMovimentacao;
 import br.com.tgsoftware.curso.util.JPAUtil;
 
-public class TesteJPARelacionamentoRegistroExistente {
+public class TesteJPARelacionamentoContaExistente {
 	public static void main(String[] args) {
 		Conta conta = new Conta();
 		conta.setId(5);
